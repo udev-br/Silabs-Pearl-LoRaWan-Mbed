@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" moduleId="org.eclipse.cdt.core.settings" name="GNU ARM v7.2.1">
+				<macros>
+					<stringMacro name="StudioSdkPath" type="VALUE_PATH_DIR" value="${StudioSdkPathFromID:com.silabs.sdk.stack.super:2.6.0._310455070}"/>
+					<stringMacro name="StudioToolchainPath" type="VALUE_PATH_DIR" value="${StudioToolchainPathFromID:com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904}"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="com.silabs.ss.framework.debugger.core.HEX" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.EBL" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.GBL" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.BIN" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.S37" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule buildConfig.needsApplyStock="true" buildConfig.stockConfigId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" cppBuildConfig.cppBuiltInState="[{&quot;builtinMacrosMap&quot;:{&quot;EFM32PG1B200F256GM48&quot;:&quot;1&quot;},&quot;builtinLibraryPathsStr&quot;:&quot;&quot;,&quot;builtinLibraryFilesStr&quot;:&quot;&quot;,&quot;builtinLibraryNames&quot;:[],&quot;builtinLibraryObjectsStr&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;builtinIncludesStr&quot;:&quot;studio:/sdk/hardware/kit/common/drivers/ studio:/sdk/hardware/kit/common/bsp/ studio:/sdk/platform/Device/SiliconLabs/EFM32PG1B/Include/ studio:/sdk/platform/CMSIS/Include/ studio:/sdk/platform/emlib/inc/ studio:/sdk/hardware/kit/SLSTK3401A_EFM32PG/config/ studio:/sdk/hardware/kit/common/drivers/ studio:/sdk/hardware/kit/common/bsp/ studio:/sdk/platform/Device/SiliconLabs/EFM32PG1B/Include/ studio:/sdk/platform/CMSIS/Include/ studio:/sdk/platform/emlib/inc/ studio:/sdk/hardware/kit/SLSTK3401A_EFM32PG/config/ studio:/sdk/hardware/kit/common/drivers/ studio:/sdk/hardware/kit/common/bsp/ studio:/sdk/platform/Device/SiliconLabs/EFM32PG1B/Include/ studio:/sdk/platform/CMSIS/Include/ studio:/sdk/platform/emlib/inc/ studio:/sdk/hardware/kit/SLSTK3401A_EFM32PG/config/&quot;,&quot;resolvedOptionsStr&quot;:&quot;[{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.constantFolding\&quot;,\&quot;value\&quot;:\&quot;true\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.switchOptimizing\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.peephole\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.debug\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.debug.generateSymbols\&quot;,\&quot;value\&quot;:\&quot;true\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c(pp)?.compiler.base\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c$1.compiler.debug.builtin\&quot;,\&quot;value\&quot;:\&quot;true\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c(pp)?.compiler.base\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c$1.compiler.debug.prolog\&quot;,\&quot;value\&quot;:\&quot;true\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.loopOptimizing\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.level\&quot;,\&quot;value\&quot;:\&quot;gnu.cpp.compiler.optimization.level.none\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.optimizeForDebug\&quot;,\&quot;value\&quot;:\&quot;true\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.localCSE\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.intrinsics\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.registerVariables\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.preprocess\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.preprocess.defineMacros\&quot;,\&quot;value\&quot;:\&quot;DEBUG\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.inlining\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.autoInline\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c(pp)?.linker.base\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c$1.linker.nostdlibs\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.globalCSE\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.debug\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.debug.generateLines\&quot;,\&quot;value\&quot;:\&quot;true\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.commonBlockSubroutines\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.level\&quot;,\&quot;value\&quot;:\&quot;gnu.c.optimization.level.none\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.optimize.tailMerging\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;listValues\&quot;:[],\&quot;toolId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.debug\&quot;,\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ss.framework.project.options.compiler.cpp.debug.generateTypes\&quot;,\&quot;value\&quot;:\&quot;true\&quot;,\&quot;listValuesMap\&quot;:{}}]&quot;}]" moduleId="com.silabs.ss.framework.ide.project.core.cpp" projectCommon.referencedModules="[{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.common.drivers\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.common.bsp\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;CMSIS/EFM32PG1B/startup_gcc_efm32pg1b.s&quot;,&quot;CMSIS/EFM32PG1B/system_efm32pg1b.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.part\&quot;/&gt;&quot;},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.common.CMSIS\&quot;&gt;\r\n  &lt;exclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[&quot;emlib/em_system.c&quot;],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.common.emlib\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;emlib/em_system.c\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;},{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.sdk.exx32.board\&quot;/&gt;&quot;}]" projectCommon.toolchainId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904"/>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" name="GNU ARM v7.2.1" parent="com.silabs.ide.si32.gcc.cdt.managedbuild.config.gnu.exe">
+					<folderInfo id="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904." name="/" resourcePath="">
+						<toolChain id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe.2112672195" name="Si32 GNU ARM" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF;com.silabs.ss.framework.debugger.core.BIN;com.silabs.ss.framework.debugger.core.HEX;com.silabs.ss.framework.debugger.core.S37;com.silabs.ss.framework.debugger.core.EBL;com.silabs.ss.framework.debugger.core.GBL" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base.211985406" isAbstract="false" name="Debug Platform" osList="win32,linux,macosx" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base"/>
+							<builder buildPath="${workspace_loc:/loraCxxProject}/GNU ARM v7.2.1 - Debug" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base.1965639640" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Si32 GNU ARM Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.321568595" name="GNU ARM C Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.prolog.1832257410" name="Generate debugger-friendly prologs (-mno-sched-prolog)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.prolog" value="true" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.builtin.385574805" name="Always branch to builtin functions (-fno-builtin)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.builtin" value="true" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.level.1641963771" name="Optimization Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.level" value="gnu.c.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.356271229" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/SLSTK3401A_EFM32PG/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFM32PG1B/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/common/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/rtcdrv/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/rtcdrv/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/mbed-port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/mbed-port/target}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/frameworks/mbed-trace}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/events}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/events/equeue}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/inc/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/inc/psa}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/platform/TARGET_PSA/COMPONENT_PSA_SRV_IMPL/COMPONENT_NSPE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/platform}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/hal}&quot;"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols.1647584843" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="YOTTA_CFG=1"/>
+									<listOptionValue builtIn="false" value="RETARGET_VCOM=1"/>
+									<listOptionValue builtIn="false" value="RETARGET_LEUART0=1"/>
+									<listOptionValue builtIn="false" value="DEBUG_EFM=1"/>
+									<listOptionValue builtIn="false" value="EQUEUE_PLATFORM_MBED=1"/>
+									<listOptionValue builtIn="false" value="LFXO_FREQUENCY=32768"/>
+									<listOptionValue builtIn="false" value="EFM32PG1B200F256GM48=1"/>
+								</option>
+								<inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.1890005244" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.840684387" name="GNU ARM C++ Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.prolog.153719327" name="Generate debugger-friendly prologs (-mno-sched-prolog)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.prolog" value="true" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.builtin.39019855" name="Always branch to builtin functions (-fno-builtin)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.builtin" value="true" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.level.904092724" name="Optimization Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.1027932440" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/SLSTK3401A_EFM32PG/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/common/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/rtcdrv/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/rtcdrv/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFM32PG1B/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/mbed-port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/mbed-port/target}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/frameworks/mbed-trace}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/events}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/events/equeue}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/inc/psa}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/platform/TARGET_PSA/COMPONENT_PSA_SRV_IMPL/COMPONENT_NSPE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/platform}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/system}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/lorastack}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/mac}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1272}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1272/registers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1276}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1276/registers}&quot;"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.def.symbols.1090915100" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="YOTTA_CFG=1"/>
+									<listOptionValue builtIn="false" value="RETARGET_VCOM=1"/>
+									<listOptionValue builtIn="false" value="RETARGET_LEUART0=1"/>
+									<listOptionValue builtIn="false" value="DEBUG_EFM=1"/>
+									<listOptionValue builtIn="false" value="EQUEUE_PLATFORM_MBED=1"/>
+									<listOptionValue builtIn="false" value="LFXO_FREQUENCY=32768"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_PLATFORM_DEFAULT_SERIAL_BAUD_RATE=115200"/>
+									<listOptionValue builtIn="false" value="LOW_ENERGY_CLOCK_SOURCE=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_EVENTS_SHARED_EVENTSIZE=8"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_PLATFORM_CTHUNK_COUNT_MAX=8"/>
+									<listOptionValue builtIn="false" value="MBED_SX1272_LORA_RADIO_SPI_FREQUENCY=4000000"/>
+									<listOptionValue builtIn="false" value="MBED_SX1276_LORA_RADIO_SPI_FREQUENCY=4000000"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_SX126X_LORA_DRIVER_SPI_FREQUENCY=4000000"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_SX126X_LORA_DRIVER_REGULATOR_MODE=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_SX126X_LORA_DRIVER_STANDBY_MODE=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_SX1272_LORA_DRIVER_RADIO_VARIANT=SX1272MB2XAS"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_SX1276_LORA_DRIVER_RADIO_VARIANT=SX1276MB1MAS"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_OVER_THE_AIR_ACTIVATION=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_DEVICE_ADDRESS=0x26011FB4"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_NWKSENCKEY={ 0xEC, 0x36, 0x93, 0x01, 0x4A, 0x93, 0x8A, 0xE8, 0xA3, 0x09, 0x4C, 0x15, 0x29, 0x8A, 0xE2, 0x20 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_SNWKSINTKEY={ 0xEC, 0x36, 0x93, 0x01, 0x4A, 0x93, 0x8A, 0xE8, 0xA3, 0x09, 0x4C, 0x15, 0x29, 0x8A, 0xE2, 0x20 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_NWKSKEY={ 0xEC, 0x36, 0x93, 0x01, 0x4A, 0x93, 0x8A, 0xE8, 0xA3, 0x09, 0x4C, 0x15, 0x29, 0x8A, 0xE2, 0x20 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_APPSKEY={ 0x44, 0xB4, 0xD9, 0xD5, 0xA3, 0xB8, 0xA2, 0xA0, 0x59, 0xCE, 0x46, 0xA2, 0x9E, 0x64, 0x06, 0xC6 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_DEVICE_EUI={ 0x00, 0x75, 0x3E, 0xC1, 0x40, 0xCA, 0x44, 0x26 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_APPLICATION_EUI={ 0x70, 0xB3, 0xD5, 0x7E, 0xD0, 0x01, 0x5A, 0x94 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_APPLICATION_KEY={ 0xAD, 0x83, 0xD6, 0x99, 0x09, 0xCD, 0x70, 0xDA, 0xD1, 0xFD, 0x31, 0x76, 0xA7, 0x52, 0x3D, 0x0B }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_NETWORK_KEY={ 0x36, 0x4C, 0xC2, 0x6C, 0x6D, 0x62, 0x4B, 0x31, 0x96, 0x44, 0x5F, 0xB7, 0x64, 0x86, 0x72, 0x59 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_TX_MAX_SIZE=255"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_FSB_MASK={0x00FF,0x0000,0x0000,0x0000,0x0001}"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_FSB_MASK_CHINA={0x00}"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_GPS_EPOCH_TAI_MINUS_UTC=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_CURRENT_TAI_MINUS_UTC=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_UPLINK_PREAMBLE_LENGTH=8"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_WAKEUP_TIME=10"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_ADR_ON=false"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_PUBLIC_NETWORK=true"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_DUTY_CYCLE_ON_JOIN=false"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_REJOIN_DEFAULT_MAX_COUNT=8"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_REJOIN_DEFAULT_MAX_TIME=20"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_NB_TRIALS=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_MAX_SYS_RX_ERROR=5"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_DOWNLINK_PREAMBLE_LENGTH=8"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_DUTY_CYCLE_ON=false"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_PHY=2"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_VERSION=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_REJOIN_TYPE1_SEND_PERIOD=20"/>
+									<listOptionValue builtIn="false" value="EFM32PG1B200F256GM48=1"/>
+								</option>
+								<inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.input.1399313119" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.335285001" name="GNU ARM Assembler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.includes.205420518" name="Include paths (-I)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.includes"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols.1228465531" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="EFM32PG1B200F256GM48=1"/>
+								</option>
+								<inputType id="org.eclipse.cdt.core.asmSource.31643616" superClass="org.eclipse.cdt.core.asmSource"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.1755600593" name="GNU ARM C Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs.783917460" name="No startup or default libs (-nostdlib)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false" valueType="boolean"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.2146047587" name="GNU ARM C++ Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.nostdlibs.269855029" name="No startup or default libs (-nostdlib)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.nostdlibs" value="false" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1740538954" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.624150472" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="mbed-semtech-lora-rf-drivers/SX1272"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="mbed-semtech-lora-rf-drivers/SX1276"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule cppProjectCommon.languageId="org.eclipse.cdt.core.g++" moduleId="com.silabs.ss.framework.ide.project.core.cpp" project.generation="12" projectCommon.boardIds="brd2500a:0.0.0" projectCommon.buildArtifactType="EXE" projectCommon.importModeId="LINK_LIBRARIES" projectCommon.partId="mcu.arm.efm32.pg1.efm32pg1b200f256gm48" projectCommon.sdkId="com.silabs.sdk.stack.super:2.6.0._310455070"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="loraCxxProject.com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType.464308551" name="SLS CDT Project" projectType="com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.849542058;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.input.771072188">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.321568595;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.1890005244">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.976242972;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.923144807">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.103378845;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.input.1037810791">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.2022948493;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.2103958010">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.1393048308;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.input.1606132381">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.840684387;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.input.1399313119">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529;com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.release#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.1334539941;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.643080576">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="GNU ARM v4.9.3 - Debug">
+			<resource resourceType="PROJECT" workspacePath="/loraCxxProject"/>
+		</configuration>
+		<configuration configurationName="GNU ARM v7.2.1"/>
+		<configuration configurationName="GNU ARM v7.2.1 - Release">
+			<resource resourceType="PROJECT" workspacePath="/loraCxxProject"/>
+		</configuration>
+		<configuration configurationName="GNU ARM v4.9.3 - Release">
+			<resource resourceType="PROJECT" workspacePath="/loraCxxProject"/>
+		</configuration>
+		<configuration configurationName="GNU ARM v7.2.1 - Debug">
+			<resource resourceType="PROJECT" workspacePath="/loraCxxProject"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
