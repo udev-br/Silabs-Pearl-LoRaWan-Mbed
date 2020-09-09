@@ -27,8 +27,8 @@ public:
 	int16_t receive ( uint8_t * port, uint8_t * data, uint16_t length, int * flags );
 
 private:
-	static void loraWanEventsCallback ( lorawan_event_t event );
-	static void loraWanCheckResponseCallback( uint8_t demod_margin, uint8_t num_gw );
+	void loraWanEventsCallback ( lorawan_event_t event );
+	void loraWanCheckResponseCallback( uint8_t demod_margin, uint8_t num_gw );
 
 private:
 	events::EventQueue & m_eventQueue;
