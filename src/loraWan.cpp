@@ -28,8 +28,8 @@ loraWan::loraWan( events::EventQueue & queue, LoRaRadio & radio, LoRaWANInterfac
 	// Important!! Don't forget to modify the preprocessor symbols
 	//
 
-	m_lorawanAppCallbacks.events          = mbed::callback( loraWanEventsCallback );
-	m_lorawanAppCallbacks.link_check_resp = mbed::callback( loraWanCheckResponseCallback );
+	m_lorawanAppCallbacks.events          = mbed::callback( this, &loraWan::loraWanEventsCallback );
+	m_lorawanAppCallbacks.link_check_resp = mbed::callback( this, &loraWan::loraWanCheckResponseCallback );
 	m_lorawanAppCallbacks.battery_level   = NULL;
 
 	m_lorawanInterface.add_app_callbacks( &m_lorawanAppCallbacks );
@@ -79,6 +79,13 @@ loraWan::send ( uint8_t port, const uint8_t *data, uint16_t length, int flags )
 
 }
 
+int16_t
+loraWan::receive ( uint8_t * port, uint8_t * data, uint16_t length, int * flags )
+{
+
+	return m_lorawanInterface.receive( data, length, *port, *flags );
+}
+
 const char * ac_lorawan_event[] = {
 
    "CONNECTED\r\n",
@@ -102,6 +109,15 @@ const char * ac_lorawan_event[] = {
 };
 
 
+int tx_done;
+int tx_error;
+int rx_done;
+int rx_timeout;
+
+uint8_t rx_data[256];
+uint8_t rx_port;
+int rx_flag;
+
 void
 loraWan::loraWanEventsCallback ( lorawan_event_t event )
 {
@@ -119,18 +135,27 @@ loraWan::loraWanEventsCallback ( lorawan_event_t event )
 		case DISCONNECTED:
 			break;
 		case TX_DONE:
+			tx_done++;
 			break;
 		case TX_TIMEOUT:
 			break;
 		case TX_ERROR:
+			tx_error++;
 			break;
 		case CRYPTO_ERROR:
 			break;
 		case TX_SCHEDULING_ERROR:
 			break;
 		case RX_DONE:
+        {
+        	rx_done++;
+
+        	this->receive( &rx_port, rx_data, 256, &rx_flag );
+
+        }
 			break;
 		case RX_TIMEOUT:
+			rx_timeout++;
 			break;
 		case RX_ERROR:
 			break;
