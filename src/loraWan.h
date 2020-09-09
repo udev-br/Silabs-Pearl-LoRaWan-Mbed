@@ -24,6 +24,7 @@ public:
 	virtual ~loraWan();
 
 	int16_t send ( uint8_t port, const uint8_t *data, uint16_t length, int flags );
+	int16_t receive ( uint8_t * port, uint8_t * data, uint16_t length, int * flags );
 
 private:
 	static void loraWanEventsCallback ( lorawan_event_t event );
